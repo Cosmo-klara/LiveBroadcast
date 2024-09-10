@@ -1,0 +1,80 @@
+<resources>
+    /* 使用插件翻译的，准确性未知 */
+    <string name="app_name">LBL</string>
+    <string name="hello_screen_title">Welcome to LBL (Live Broadcast on LAN)</string>
+    <string name="hello_screen_message">This application is a lightweight application for LAN sharing of mobile phone screen for live broadcast. You can share the screen of this smartphone from a computer or smartphone connected to the same LAN. \n
+        To watch the live broadcast, just open the URL in a browser on another terminal, no software required. \n</string>
+    <string name="hello_screen_start">Start</string>
+    <string name="setting_screen_title">Set up</string>
+    <string name="setting_stream_title">Screen sharing settings</string>
+    <string name="setting_stream_description">Update frequency, bitrate, FPS settings and more</string>
+    <string name="setting_about_this_app_title">About</string>
+    <string name="setting_about_this_app_description">Start the engine</string>
+    <string name="about_this_app_message">Can I say that it’s because I can’t watch my teammates after watching elimination replays in the game I’m playing, so I want to make a mobile screen sharing software similar to parsec\? (dog head)</string>
+    <string name="about_this_app_version">Version</string>
+    <string name="notification_channel_title">Notifications during LBL startup</string>
+    <string name="service_notification_title">LBL is running</string>
+    <string name="service_notification_content">You can see it from your browser</string>
+    <string name="ip_address">IP address</string>
+    <string name="mirroring_setting_video_interval_title">Video update frequency ​​ (seconds)</string>
+    <string name="mirroring_setting_reset_message">Are you sure you want to reset\?</string>
+    <string name="mirroring_setting_reset">Reset</string>
+    <string name="mirroring_setting_video_interval_description">Reducing it will reduce the latency of playing videos in the browser</string>
+    <string name="mirroring_setting_video_bitrate_title">Video bitrate (Kbps)</string>
+    <string name="mirroring_setting_video_bitrate_description">Improve image quality at the expense of increased video size</string>
+    <string name="mirroring_setting_video_fps_title">Video frame rate (fps)</string>
+    <string name="mirroring_setting_video_fps_description">The smoothness of the video</string>
+    <string name="mirroring_setting_internal_audio_title">Record internal audio</string>
+    <string name="mirroring_setting_internal_audio_description">Android 10 or higher can combine the device\'s internal audio with video and send it, requiring microphone permissions</string>
+    <string name="mirroring_setting_audio_bitrate_title">Audio bitrate (Kbps)</string>
+    <string name="mirroring_setting_audio_bitrate_description">Sound quality.</string>
+    <string name="mirroring_setting_port_title">The port number</string>
+    <string name="mirroring_setting_port_description">If multiple users are using the same port at the same time, you need to change the port</string>
+    <string name="home_screen_permission_result_fail">Permission denied</string>
+    <string name="time_component_time_now">Current time</string>
+    <string name="mirroring_component_start">Start screen sharing</string>
+    <string name="mirroring_component_end">End sharing</string>
+    <string name="hello_card_title">Welcome to LBL ( Live Broadcast on LAN ) </string>
+    <string name="hello_card_description">Click to see a brief description of this application</string>
+    <string name="url_card_title">View URL</string>
+    <string name="url_card_description">You can view the content of the screen share by entering this URL into the address field of your PC or mobile browser</string>
+    <string name="url_card_share">share</string>
+    <string name="url_card_open_browser">Open the browser to check whether the sharing is successful</string>
+    <string name="internal_audio_permission_card_title">Android 10 and above can share internal audio</string>
+    <string name="internal_audio_permission_card_description">Microphone permission is required to use internal audio in screen sharing.</string>
+    <string name="internal_audio_permission_card_button">Grant microphone permission</string>
+    <string name="stream_info_title">Screen sharing quality information</string>
+    <string name="stream_info_internal_audio">Video contains internal audio (Android 10 and above)</string>
+    <string name="stream_info_enable">Enable</string>
+    <string name="stream_info_disable">Not Enabled</string>
+    <string name="stream_info_internal_audio_permission_error">(Microphone permission is not granted and cannot be used)</string>
+    <string name="stream_info_interval">Update frequency (seconds)</string>
+    <string name="stream_info_video_bitrate">Video bitrate</string>
+    <string name="stream_info_video_fps">Video frame rate (fps)</string>
+    <string name="stream_info_audio_bitrate">Audio bitrate</string>
+    <string name="stream_info_setting_button">Change settings</string>
+    <string name="url_card_qr_code">QR code</string>
+    <string name="mirroring_setting_resolution">Specify video resolution</string>
+    <string name="mirroring_setting_resolution_description">If not specified, the default screen resolution will be used</string>
+    <string name="mirroring_setting_resolution_video_height">Video height</string>
+    <string name="mirroring_setting_resolution_video_width">Video width</string>
+    <string name="mirroring_setting_advanced">Advanced user settings</string>
+    <string name="mirroring_setting_resolution_hint">Horizontal 1280, vertical 720</string>
+    <string name="stream_info_video_resolution">Video resolution</string>
+    <string name="streaming_setting_type_mpeg_dash_title">MPEG-DASH mode</string>
+    <string name="streaming_setting_type_mpeg_dash_description">Introduction:\n
+    Screen sharing is based on MPEG-DASH technology, which is mostly used for real-time distribution. \n
+    The video codec uses VP9, the audio codec uses Opus, and the container uses WebM. \n
+    Requires a browser with available MediaSource Extensions API (mostly supported), some browser extensions may need to be disabled</string>
+    <string name="streaming_setting_type_title">Streaming method</string>
+    <string name="post_notification_permission_card_title">Display mirror information in notification area</string>
+    <string name="post_notification_permission_card_description">No authorization is required to use, but in Android 13 and above, permission to send notifications is required to display the IP address and QR code in the notification area.</string>
+    <string name="post_notification_permission_card_button">Grant notification permissions</string>
+    <string name="mirroring_setting_mpeg_dash_vp8_title">Video codec using VP8</string>
+    <string name="mirroring_setting_mpeg_dash_vp8_description">For users who don’t have a VP9 encoder on their phone (but most of them do)</string>
+    <string name="mirroring_setting_mirroring_external_display_title">Mirror the output of an external monitor</string>
+    <string name="mirroring_setting_mirroring_external_display_description">For applications that support external display output, mirror the output of the external display instead of the device.</string>
+    <string name="mirroring_setting_mirroring_external_display_hint">Behavior when connected to external display</string>
+    <string name="service_stop_because_setting_update">Settings changed during screen sharing, exit screen sharing</string>
+    <string name="about_this_app_open_github">Open on GitHub</string>
+</resources>

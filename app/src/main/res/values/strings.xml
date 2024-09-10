@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LBL</string>
+    <string name="hello_screen_title">欢迎使用 LBL (Live Broadcast on LAN) </string>
+    <string name="hello_screen_message">此应用是一个局域网共享手机屏幕进行直播的轻量级应用，您可以从连接到同一 LAN 下的计算机或智能手机共享此智能手机的屏幕。\n
+        要观看直播，只需在另一个终端的浏览器中打开 URL 即可，无需安装软件。\n</string>
+    <string name="hello_screen_start">开始</string>
+    <string name="setting_screen_title">设置</string>
+    <string name="setting_stream_title">屏幕共享设置</string>
+    <string name="setting_stream_description">更新频率、比特率和 FPS 设置等</string>
+    <string name="setting_about_this_app_title">关于</string>
+    <string name="setting_about_this_app_description">开发动机</string>
+    <string name="about_this_app_message">我能说是因为我玩的游戏观看了淘汰回放就不能观战队友，所以想做一个类似的parsec的手机端共享屏幕的软件嘛？（狗头）</string>
+    <string name="about_this_app_open_github">在Github上打开</string>
+    <string name="about_this_app_version">版本</string>
+    <string name="notification_channel_title">LBL 启动期间的通知</string>
+    <string name="service_notification_title"> LBL 正在运行</string>
+    <string name="service_notification_content">您可以从浏览器中看到它</string>
+    <string name="ip_address">IP 地址</string>
+    <string name="mirroring_setting_video_interval_title">视频更新频率​​（秒）</string>
+    <string name="mirroring_setting_reset_message">确定要重置吗？</string>
+    <string name="mirroring_setting_reset">重置</string>
+    <string name="mirroring_setting_video_interval_description">减小它会降低在浏览器中播放视频的延迟</string>
+    <string name="mirroring_setting_video_bitrate_title">视频比特率（Kbps）</string>
+    <string name="mirroring_setting_video_bitrate_description">以增加视频大小为代价来提高图像质量</string>
+    <string name="mirroring_setting_video_fps_title">视频帧率（fps）</string>
+    <string name="mirroring_setting_video_fps_description">视频的流畅度</string>
+    <string name="mirroring_setting_internal_audio_title">录制内部音频</string>
+    <string name="mirroring_setting_internal_audio_description">Android 10 或更高版本可以将设备的内部音频与视频合并发送，需要麦克风权限</string>
+    <string name="mirroring_setting_audio_bitrate_title">音频比特率 (Kbps)</string>
+    <string name="mirroring_setting_audio_bitrate_description">音质。</string>
+    <string name="mirroring_setting_port_title">端口号</string>
+    <string name="mirroring_setting_port_description">如果同时有多个用户在使用同一个端口，则需要更改端口</string>
+    <string name="home_screen_permission_result_fail">没有权限</string>
+    <string name="time_component_time_now">当前时间</string>
+    <string name="mirroring_component_start">开始屏幕共享</string>
+    <string name="mirroring_component_end">结束共享</string>
+    <string name="hello_card_title">欢迎使用 LBL ( Live Broadcast on LAN ) </string>
+    <string name="hello_card_description">点开您可以看到有关此应用程序的简要说明</string>
+    <string name="url_card_title">查看网址</string>
+    <string name="url_card_description">您可以通过在 PC 或手机浏览器的地址字段中输入此 URL 来查看屏幕共享的内容</string>
+    <string name="url_card_share">分享</string>
+    <string name="url_card_open_browser">打开浏览器检查是否共享成功</string>
+    <string name="internal_audio_permission_card_title">Android 10及以上版本可共享内部音频</string>
+    <string name="internal_audio_permission_card_description">需要麦克风许可才能在屏幕共享中使用内部音频。</string>
+    <string name="internal_audio_permission_card_button">授予麦克风权限</string>
+    <string name="stream_info_title">屏幕共享质量信息</string>
+    <string name="stream_info_internal_audio">视频包含内部音频（Android 10 及更高版本）</string>
+    <string name="stream_info_enable">启用</string>
+    <string name="stream_info_disable">未启用</string>
+    <string name="stream_info_internal_audio_permission_error">（未授予麦克风权限，无法使用）</string>
+    <string name="stream_info_interval">更新频率（秒）</string>
+    <string name="stream_info_video_bitrate">视频比特率</string>
+    <string name="stream_info_video_fps">视频帧率（fps）</string>
+    <string name="stream_info_audio_bitrate">音频比特率</string>
+    <string name="stream_info_setting_button">更改设置</string>
+    <string name="url_card_qr_code">二维码</string>
+    <string name="mirroring_setting_resolution">指定视频分辨率</string>
+    <string name="mirroring_setting_resolution_description">如果未指定，将使用默认屏幕分辨率</string>
+    <string name="mirroring_setting_resolution_video_height">视频高度</string>
+    <string name="mirroring_setting_resolution_video_width">视频宽度</string>
+    <string name="mirroring_setting_advanced">高级用户设置</string>
+    <string name="mirroring_setting_resolution_hint">水平 1280，垂直 720</string>
+    <string name="stream_info_video_resolution">视频分辨率</string>
+    <string name="streaming_setting_type_mpeg_dash_title">MPEG-DASH 模式</string>
+    <string name="streaming_setting_type_mpeg_dash_description">介绍：\n
+    屏幕共享是基于 MPEG-DASH 的技术实现的，该技术多用于实时分发。\n
+    视频编解码器使用 VP9，音频编解码器使用 Opus，容器使用 WebM。\n
+    需要具有可用 MediaSource Extensions API 的浏览器（基本都支持），可能需要禁用某些浏览器拓展</string>
+    <string name="streaming_setting_type_title">流式传输方式</string>
+    <string name="post_notification_permission_card_title">在通知区域显示镜像信息</string>
+    <string name="post_notification_permission_card_description">无需授权即可使用，但在 Android 13 及更高版本中，需要发送通知的权限以便在通知区域显示 IP 地址和二维码。</string>
+    <string name="post_notification_permission_card_button">授予通知权限</string>
+    <string name="mirroring_setting_mpeg_dash_vp8_title">使用 VP8 进行视频编解码</string>
+    <string name="mirroring_setting_mpeg_dash_vp8_description">对于手机上没有 VP9 编码器的用户（不过大多数都有吧）</string>
+    <string name="mirroring_setting_mirroring_external_display_title">镜像外部显示器的输出</string>
+    <string name="mirroring_setting_mirroring_external_display_description">对于支持外部显示器输出的应用程序，镜像外部显示器的输出，而不是镜像设备。</string>
+    <string name="mirroring_setting_mirroring_external_display_hint">连接到外部显示器时的行为</string>
+    <string name="service_stop_because_setting_update">屏幕共享期间期间设置发生更改，退出屏幕共享</string>
+</resources>
